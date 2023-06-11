@@ -95,8 +95,11 @@ div.About {
 #contacts {
   box-sizing: border-box;
   position: absolute;
-  top: 825px;
+  top: 950px;
   left: 50px;
   width: 1248px;
   background-color: maroon;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 150%;
 }
