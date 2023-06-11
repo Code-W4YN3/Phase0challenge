@@ -1,3 +1,6 @@
+body {
+  background-color: black;
+}
 #image {
   box-sizing: border-box;
   position: absolute;
@@ -7,13 +10,42 @@
   left: 50px;
   top: 50px;
   background: url(Wayne.jpg.jpg);
+  z-index: 3;
 }
 #Description {
   box-sizing: border-box;
   position: absolute;
-  height: 600px;
-  width: 600px;
+  height: 350px;
+  width: 975px;
   top: 300px;
   right: 50px;
-  font-size: 175%;
+  font-size: 150%;
+  background-color: #555555;
+  z-index: 2;
+}
+#Title {
+  box-sizing: border-box;
+  position: absolute;
+  height: 350px;
+  width: 975px;
+  top: 50px;
+  right: 50px;
+  font-size: 210%;
+  text-align: center;
+  background-color: gray;
+  z-index: 1;
+}
+#Wayne-otido {
+  position: absolute;
+  right: 125px;
+  top: 75px;
+  font-size: 225%;
+}
+div.About {
+  box-sizing: border-box;
+  position: absolute;
+  right: 50px;
+  top: 0px;
+  left: 350px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
