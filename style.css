@@ -1,3 +1,19 @@
-body {
-  background: white;
+#image {
+  box-sizing: border-box;
+  position: absolute;
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  left: 50px;
+  top: 50px;
+  background: url(Wayne.jpg.jpg);
+}
+#Description {
+  box-sizing: border-box;
+  position: absolute;
+  height: 600px;
+  width: 600px;
+  top: 300px;
+  right: 50px;
+  font-size: 175%;
 }
