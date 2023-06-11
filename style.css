@@ -62,3 +62,30 @@ div.About {
   left: 350px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+#Education {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1248px;
+  height: 125px;
+  left: 50px;
+  top: 700px;
+  background-color: gray;
+  font-size: 150%;
+}
+#School-list {
+  box-sizing: border-box;
+  position: absolute;
+  width: 300px;
+  left: 475px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#listed {
+  box-sizing: border-box;
+  position: absolute;
+  width: 300px;
+  top: 50px;
+  left: 475px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
