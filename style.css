@@ -11,6 +11,8 @@ body {
   top: 50px;
   background: url(Wayne.jpg.jpg);
   z-index: 3;
+  border-color: maroon;
+  border-style: dashed;
 }
 #Description {
   box-sizing: border-box;
@@ -22,6 +24,8 @@ body {
   font-size: 150%;
   background-color: #555555;
   z-index: 2;
+  border-color: maroon;
+  border-style: dashed;
 }
 #Title {
   box-sizing: border-box;
@@ -34,12 +38,21 @@ body {
   text-align: center;
   background-color: gray;
   z-index: 1;
+  border-color: maroon;
+  border-style: dashed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #Wayne-otido {
   position: absolute;
-  right: 125px;
-  top: 75px;
+  right: 95px;
+  top: 60px;
   font-size: 225%;
+}
+#My-personal{
+  position: absolute;
+  right: 200px;
+  top: 0px;
+  font-size: 125%;
 }
 div.About {
   box-sizing: border-box;
