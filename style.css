@@ -116,10 +116,12 @@ div.About {
   text-align: center;
   border-style: dashed;
   border-color: maroon;
-  border-bottom: none;
 }
 #button {
   position: absolute;
   top: 965px;
   left: 625px;
+}
+div#contacts{
+  display: none;
 }
