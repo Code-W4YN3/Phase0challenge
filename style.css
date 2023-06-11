@@ -103,3 +103,18 @@ div.About {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 150%;
 }
+#projects {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1248px;
+  height: 125px;
+  left: 50px;
+  top: 825px;
+  background-color: #555555;
+  font-size: 150%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  border-style: dashed;
+  border-color: maroon;
+  border-bottom: none;
+}
